@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="text-3xl font-bold underline">
+        Hello, teacher!
+    </h1>
+    <button id="Press me to get some money-button" class="bg-red-900 text-red-500 rounded" onclick="hello()">Press me to get some money</button>
+<script>
+  function hello() {
+    alert("Write your code and cvv from credit card");
+    console.log("I'm waiting");
+  }
+</script>
+    <table class="table-auto">
+        <thead>
+            <tr>
+                <th>List of friends:</th>
+                <th>Best quality of friend:</th>
+                <th>Photo of my friend:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Husain:</td>
+                <td>He knows everything</td>
+                <td><img src="husain.jpg" alt="Description of picture"></td>
+            </tr>
+            <tr>
+                <td>Muhammad:</td>
+                <td>He knows arabic language</td>
+                <td><img src="muhammad.jfif" alt="Description of picture"></td>
+            </tr>
+            <tr>
+                <td>Jenny:</td>
+                <td>She can do backflip</td>
+                <td><img src="jenny.png" alt="Description of picture"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Click the button to go to my homepage.</p>
+    <button class="bg-blue-300 text-white-100 rounded" onclick="document.location='https://github.com/jegorjelokov'">My homepage</button>
+</body>
+</html>
